@@ -1,4 +1,4 @@
-const API_URL = 'http://127.0.0.1:5000/tasks';
+const API_URL = 'http://35.77.91.104/api/tasks';
 
 async function renderTasks() {
     const res = await fetch(API_URL);
